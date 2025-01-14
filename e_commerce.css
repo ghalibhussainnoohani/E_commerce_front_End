@@ -1,0 +1,192 @@
+
+.carousel-item{
+bottom: 10px;
+
+    transform: translate(2  ,80%);
+}
+
+.ph{
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+#navbarSupportedContent{
+    height: 70px;
+}
+
+#adjust{
+    height: 290px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100% !important;
+    
+}
+
+.container-fluid{
+    background-color: rgb(100, 98, 93);
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card{
+position: relative;
+    
+    background-image: url(media/3d-background-glass-light-abstract-background-blue-2732x2732-8728.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+p{
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+    display: fkex;
+}
+
+h3{
+    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.social{
+    font-size: 21px !important; 
+}
+
+
+.color-text{
+    color:white;
+}
+
+
+
+ button:focus {
+     -moz-box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline-width: 0
+ }
+
+ footer{
+    color:#ffffff !important;
+ }
+
+ li{
+     margin-top: 20px ;
+     margin-bottom: 20px ;
+ }
+ 
+.Careers{ 
+    cursor: pointer;
+    color: white;
+}
+
+.row-1{
+    background-color: #5a4da3;
+}
+
+.row-2{
+    
+    background-color: #42418d;
+}
+
+
+
+
+.container{
+    background-color: rgb(6, 70, 122);
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+    color: rgb(189, 6, 6);
+}
+
+#sehwan{
+
+margin-top: 15px;
+    color: rgb(1, 1, 36)
+}
+
+#foot{
+    background-color: #f8f9fa;
+}
+
+#cart{
+    color: aliceblue;
+    margin-right: 5px;
+}
+
+.bucket{
+    height: 300px;
+    width: 1320px;
+    background-color: #0d51da;
+}
+
+#carts{
+    color: beige;
+    background-color: #0d51da;
+    height: 50px;
+position: relative;
+    width: 200px;
+    margin-right: 100px;
+}
+
+
+
+
+  .cart-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(49, 137, 179);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 90px;
+    box-shadow: -2px 0 5px rgba(148, 3, 3, 0.5);
+  }
+
+  .cart-sidebar h2 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cart-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .cart-sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cart-sidebar .btn {
+    margin: 20px;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-brand{
+    color: white    ;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  .cardfoot{
+    background-image: url(media/wp2448876.jpg);
+    color: navy;
+  }
